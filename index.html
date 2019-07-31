@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>fahimfarhan</title>
+<link rel="shortcut icon" href="img/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/w3v4.css">
+
+    <script src="js/w3.js"></script>
+</head>
+<body>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="img/cycle.jpg" alt="woods" style="width:100%;">
+  <br><br><br><br>
+  <div class="w3-container w3-center w3-margin-bottom">  
+        <img src="img/me.jpeg" alt="Qazi Fahim Farhan" style="width:12%" class="w3-circle w3-display-bottommiddle">
+  </div>
+</div>
+
+    <div class="w3-container">
+        <div class="w3-center">
+        <!-- img src="img/me.jpeg" alt="Qazi Fahim Farhan" style="width:15%" class="w3-circle"-->
+        <h1 class="w3-xxxlarge">Qazi Fahim Farhan</h1>
+        </div>
+        <div class="w3-container w3-margin-left w3-margin-right">
+
+            <div class=" w3-border-bottom w3-center">
+                <button class="w3-bar-item w3-button " onclick="openCity('Home')">Home</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('Research')">Research</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('Resume')">Resume</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('Contact')">Contact</button>
+            </div>
+
+            <div id="Home" class="w3-container w3-display-container  city">
+            <span onclick="this.parentElement.style.display='none'"
+            class="w3-button w3-large w3-display-topright">&times;</span>
+            <h2>Home</h2>
+            <p>Hello there!</p><p> I'm a Hello! I am a Software Developer from Bangladesh. 
+            If you have any project/ idea, I can help you to implement it. My skills are:</p>
+                <ol>
+                <li> Python</li>
+                <li> Django</li>
+                <li> Java </li>
+                <li> Android</li>
+                <li> C++</li>
+                <li> SQL (MySQL, Postgresql, Oracle, SQlite)</li>
+                <li> PHP, CodeIgniter</li>
+                <li> JavaScript, Vue.js</li>
+                </ol>
+                <p>etc.</p>
+                <p>
+                I like to maintain good software development practices such as using Git and Docker, keeping software documentation etc.
+                </p>
+                <p>    
+                I also love competitive programming and regularly practice in programming contests held in CodeForces to keep my coding skills up to the mark. So you can expect good quality and efficient algorithms implemented in your projects that will ensure robustness even in the worst-case scenarios. 
+                Thank you for reading. 
+                </p>
+                <br>
+                <br>
+                                <br>
+                <br>
+            </div>
+
+            <div id="Research" class="w3-container w3-display-container  city" style="display:none">
+            <span onclick="this.parentElement.style.display='none'"
+            class="w3-button w3-large w3-display-topright">&times;</span>
+            <h2>Research</h2>
+            <p>
+                <table class="w3-table w3-striped w3-bordered">
+                <col width="80">
+                <col width="1000">
+                <tr>
+                    <td class="w3-right-align">Title</td>
+                    <th>Building Semantic Knowledge Graph using Twitter Data</th>
+                </tr>
+                <tr>
+                    <td class="w3-right-align">Supervisor</td>
+                    <td>Dr. Muhammad Mashroor Ali</td>
+                </tr>
+                <tr>
+                    <td class="w3-right-align">Description</td>
+                    <td>In this thesis, we investigated how to build knowledge graph from 
+                a very limited data source like Tweets. As the research progressed, 
+                we faced some chalanges such as connecting external knowledge base, 
+                choosing tentative candidates and disambiguating urls using various heuristic functions. 
+                We have also used NLP tools (GATE developer) to analyze tweets and write necessary codes. <a href="https://github.com/fahimfarhan/KnowledgeGraph" target="_blank">(github link)</td>
+                </tr>
+                </table>
+            </p> 
+            <br>
+                <br>
+                                <br>
+                <br>
+            </div>
+
+            <div id="Resume" class="w3-container w3-display-container  city" style="display:none">
+            <span onclick="this.parentElement.style.display='none'"
+            class="w3-button w3-large w3-display-topright">&times;</span>
+            <h2>Resume</h2>
+        
+            <p>
+                <iframe height="1000px" width="100%" src="https://fahimfarhan.github.io/fahimfarhan-resume/Qazi_Fahim_Farhan.pdf" name="iframe_a"></iframe>
+            </p>
+            <br>
+                <br>
+                                <br>
+                <br>
+            </div>
+
+            <div id="Contact" class="w3-container w3-display-container  city" style="display:none">
+            <span onclick="this.parentElement.style.display='none'"
+            class="w3-button w3-large w3-display-topright">&times;</span>
+            <h2>Contact</h2>
+            <div class="w3-continer">
+                You can reach me via email: fahim.farhan@outlook.com
+            </div>
+            <h3>Send Message</h3>
+            <p>
+                <form action="https://jumprock.co/mail/ColeAnderson" method="post">
+                <br>
+                <input type="text" name="email" placeholder="Email Address" />
+                <br>
+                <input style="width:50%; height:50px;" type="text" name="message" placeholder="message" />
+                <br>
+                <input  type="submit" value="Send Message" />
+                <br>
+                </form>
+            </p> 
+            <br>
+                <br>
+                                <br>
+                <br>
+            </div>
+
+        </div>
+    
+            
+    </div>
+
+    <div class="w3-container w3-bottom w3-white" id="footer">
+        <div class="w3-container w3-white w3-margin-left w3-margin-right" >
+            <div class="w3-container w3-margin w3-right">
+                Webpage made by <a href="https://github.com/fahimfarhan" target="_blank">[Fahim Farhan]</a>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script>
+        function openCity(cityName) {
+        var i;
+        var x = document.getElementsByClassName("city");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        document.getElementById(cityName).style.display = "block";  
+        }
+    </script>
+</body>
+</html>
