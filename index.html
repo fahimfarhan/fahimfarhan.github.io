@@ -5,6 +5,7 @@
 <link rel="shortcut icon" href="img/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/w3v4.css">
+    <link rel="stylesheet" href="css/contact.css">
 
     <script src="js/w3.js"></script>
 </head>
@@ -110,27 +111,56 @@
             </div>
 
             <div id="Contact" class="w3-container w3-display-container  city" style="display:none">
-            <span onclick="this.parentElement.style.display='none'"
-            class="w3-button w3-large w3-display-topright">&times;</span>
-            <h2>Contact</h2>
-            <div class="w3-continer">
-                You can reach me via email: fahim.farhan@outlook.com
-            </div>
-            <h3>Send Message</h3>
-            <p>
-                <form action="https://jumprock.co/mail/ColeAnderson" method="post">
-                <br>
-                <input type="text" name="email" placeholder="Email Address" />
-                <br>
-                <input style="width:50%; height:50px;" type="text" name="message" placeholder="message" />
-                <br>
-                <input  type="submit" value="Send Message" />
-                <br>
+                <span onclick="this.parentElement.style.display='none'"
+                class="w3-button w3-large w3-display-topright">&times;</span>
+                <h2>Contact</h2>
+                <div class="w3-continer">
+                    You can reach me via email: fahim.farhan@outlook.com
+                </div>
+                <!---->
+            <form action="https://jumprock.co/mail/ColeAnderson" method="post">
+                
+                <div class="container">
+                    
+                    <div class="row">
+                            <h3 style="text-align:center">Contact</h3>
+                    </div>
+                    <div class="row input-container">
+                            <div class="col-xs-12">
+                                <label>Name</label> 
+                                <div class="styled-input wide  w3-border">
+                                    <input type="text" placeholder="Name" name="name">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                            <label>Email</label>
+                                <div class="styled-input wide  w3-border">
+                                    <input type="text" name="email" placeholder="Email Address" /> 
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <label>Message</label>
+                                <div class="styled-input wide w3-border">
+                                    <textarea  name="message" placeholder="Message" required></textarea>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="w3-button">
+                                    <input  type="submit" value="Send Message" />
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                    </div>
+                </div>
                 </form>
-            </p> 
-            <br>
+            <!---->
                 <br>
-                                <br>
+                <br>
+                <br>
                 <br>
             </div>
 
