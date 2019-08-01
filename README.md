@@ -1,2 +1,2 @@
-# recommended-community-standards
-This is how every repo should look like :)
+# fahimfarhan.github.io
+Welcome to my website homepage
