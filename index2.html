@@ -20,21 +20,21 @@
   </div>
 </div>
 
-    <div class="container">
-        <div class="continer-fluid text-center">
+    <div class="w3-container">
+        <div class="w3-center">
         <!-- img src="img/me.jpeg" alt="Qazi Fahim Farhan" style="width:15%" class="w3-circle"-->
-        <h1>Qazi Fahim Farhan</h1>
+        <h1 class="w3-xxxlarge">Qazi Fahim Farhan</h1>
         </div>
         <div class="w3-container w3-margin-left w3-margin-right">
 
             <div class=" w3-border-bottom w3-center">
-                <button type="button" class="btn btn-light" onclick="openCity('Home')">Home</button>
-                <button type="button" class="btn btn-light" onclick="openCity('Research')">Research</button>
-                <button type="button" class="btn btn-light" onclick="openCity('Resume')">Resume</button>
-                <button type="button" class="btn btn-light" onclick="openCity('Contact')">Contact</button>
+                <button class="w3-bar-item w3-btn " onclick="openCity('Home')">Home</button>
+                <button class="w3-bar-item w3-btn" onclick="openCity('Research')">Research</button>
+                <button class="w3-bar-item w3-btn" onclick="openCity('Resume')">Resume</button>
+                <button class="w3-bar-item w3-btn" onclick="openCity('Contact')">Contact</button>
             </div>
 
-            <div id="Home" class="container w3-display-container  city">
+            <div id="Home" class="w3-container w3-display-container  city">
             <span onclick="this.parentElement.style.display='none'"
             class="w3-button w3-large w3-display-topright">&times;</span>
             <h2>Home</h2>
@@ -50,12 +50,12 @@
                 <br>
             </div>
 
-            <div id="Research" class="container w3-display-container  city" style="display:none">
+            <div id="Research" class="w3-container w3-display-container  city" style="display:none">
             <span onclick="this.parentElement.style.display='none'"
             class="w3-button w3-large w3-display-topright">&times;</span>
             <h2>Research</h2>
             <p>
-                <table class="table table-striped">
+                <table class="w3-table w3-striped w3-bordered">
                 <col width="80">
                 <col width="1000">
                 <tr>
@@ -82,7 +82,7 @@
                 <br>
             </div>
 
-            <div id="Resume" class="container w3-display-container  city" style="display:none">
+            <div id="Resume" class="w3-container w3-display-container  city" style="display:none">
             <span onclick="this.parentElement.style.display='none'"
             class="w3-button w3-large w3-display-topright">&times;</span>
             <h2>Resume</h2>
@@ -96,75 +96,59 @@
                 <br>
             </div>
 
-            <div id="Contact" class="container w3-display-container  city" style="display:none">
+            <div id="Contact" class="w3-container w3-display-container  city" style="display:none">
                 <span onclick="this.parentElement.style.display='none'"
                 class="w3-button w3-large w3-display-topright">&times;</span>
                 
-                <div class="row">
+                <div class="w3-row">
                 <!-- social -->    
-                <div class="col-sm-4">
+                <div class="w3-col m4 l4">
                     <div class = "w3-container">
                         <h3 class="w3-center">Social</h3>
-                        <table class="table table-bordered table-hover">
-                            <tbody>
-                                <tr>
-                                  <td><a href="https://github.com/fahimfarhan" type="button" class="btn btn-light">github.com</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="https://codeforces.com/profile/fahimfarhan" type="button" class="btn btn-light">codeforces.com</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="https://www.facebook.com/qfahimfarhan" type="button" class="btn btn-light">facebook.com</a></td>
-                                </tr>
-                                <tr>
-                                    <td>fahim.farhan@outlook.com</td>
-                                </tr>
-                              </tbody>
-                        </table>
-                        <!-- a href="https://github.com/fahimfarhan" class="w3-btn w3-white">github.com/fahimfarhan</a>
+                        <a href="https://github.com/fahimfarhan" class="w3-btn w3-white">github.com/fahimfarhan</a>
                         <br><br>
                         <a href="https://codeforces.com/profile/fahimfarhan" class="w3-btn w3-white">codeforces.com/profile/fahimfarhan</a>
                         <br><br>
                         <a href="https://www.facebook.com/qfahimfarhan" class="w3-btn w3-white">facebook.com/qfahimfarhan</a>
                         <br><br>
-                        <a href="fahim.farhan@outlook.com" class="w3-btn w3-white">fahim.farhan@outlook.com</a-->
+                        <a href="fahim.farhan@outlook.com" class="w3-btn w3-white">fahim.farhan@outlook.com</a>
                         <br><br>
                     </div>
                 </div>
                 <!-- contact -->
-                    <div class="col-sm-8">
+                    <div class="w3-col m8 l8">
                             <!---->
                             <form action="https://jumprock.co/mail/ColeAnderson" method="post">
                                 
-                                <div class="container">
+                                <div class="w3-container">
                                     
                                     <div class="row">
-                                            <h3 class="text-center">Contact</h3>
+                                            <h3 class="w3-center">Contact</h3>
                                     </div>
-                                    <div class="container input-container">
-                                            <div class="container row">
+                                    <div class="row input-container">
+                                            <div class="col-xs-12">
                                                 <label>Name</label> 
-                                                <input type="text" class="form-control" placeholder="Name" name="name">
+                                                <div class="styled-input wide  w3-border">
+                                                    <input type="text" placeholder="Name" name="name">
+                                                </div>
                                             </div>
-                                            <br>
-                                            <div class="container row">
+                                            <div class="col-md-6 col-sm-12">
                                             <label>Email</label>
-                                                
-                                            <input type="text" class="form-control" name="email" placeholder="Email Address" /> 
-                                                
+                                                <div class="styled-input wide  w3-border">
+                                                    <input type="text" name="email" placeholder="Email Address" /> 
+                                                </div>
                                             </div>
-                                            <br>
-                                            <div class="container row">
+                                            <div class="col-xs-12">
                                                 <label>Message</label>
-                                                
-                                                <textarea  name="message" class="form-control" placeholder="Message" required></textarea>
-                                                
+                                                <div class="styled-input wide w3-border">
+                                                    <textarea  name="message" placeholder="Message" required></textarea>
+                                                    
+                                                </div>
                                             </div>
-                                            <br>
-                                            <div class="container row">
-                                                
-                                                    <input class="btn btn-dark"  type="submit" value="Send Message" />
-                                                
+                                            <div class="col-xs-12">
+                                                <div class="w3-button">
+                                                    <input  type="submit" value="Send Message" />
+                                                </div>
                                             </div>
                                             <br>
                                             <br>
