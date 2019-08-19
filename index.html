@@ -32,6 +32,7 @@
                 <button type="button" class="btn btn-light" onclick="openCity('Research')">Research</button>
                 <button type="button" class="btn btn-light" onclick="openCity('Resume')">Resume</button>
                 <button type="button" class="btn btn-light" onclick="openCity('Contact')">Contact</button>
+                <button type="button" class="btn btn-light" onclick="openWin()">Blog</button>
             </div>
 
             <div id="Home" class="container w3-display-container  city">
@@ -211,5 +212,10 @@
         document.getElementById(cityName).style.display = "block";  
         }
     </script>
+    <script>
+        function openWin() {
+          window.open("http://fahimfarhan.github.io/blog");
+        }
+        </script>
 </body>
 </html>
