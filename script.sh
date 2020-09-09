@@ -1,6 +1,6 @@
 git status
 git add .
 git status
-git commit -m "FC auto-commit"
-git push origin master
+git commit -m ":rocket: auto-commit"
+git push origin dev
 
