@@ -15,7 +15,7 @@
 
 <!-- Image Header -->
 <div class="w3-display-container w3-animate-opacity">
-  <img src="img/cycle.jpg" alt="woods" style="width:100%;">
+  <img src="img/books.jpg" alt="woods" style="width:100%;">
   <br><br><br><br>
   <div class="w3-container w3-center w3-margin-bottom">  
         <img src="img/me.jpeg" alt="Qazi Fahim Farhan" style="width:12%" class="w3-circle w3-display-bottommiddle">
@@ -33,6 +33,7 @@
                 <button type="button" class="btn btn-light" onclick="openCity('Home')">Home</button>
                 <button type="button" class="btn btn-light" onclick="openCity('Research')">Research</button>
                 <button type="button" class="btn btn-light" onclick="openCity('Resume')">Resume</button>
+                <button type="button" class="btn btn-light" onclick="openCity('ResumeEuropass')">Resume(Europass)</button>
                 <button type="button" class="btn btn-light" onclick="openCity('Projects')">Projects</button>
                 <button type="button" class="btn btn-light" onclick="openCity('Contact')">Contact</button>
                 <button type="button" class="btn btn-light" onclick="openWin()">Blog</button>
@@ -42,9 +43,9 @@
             <span onclick="this.parentElement.style.display='none'"
             class="w3-button w3-large w3-display-topright">&times;</span>
             <h2>Home</h2>
-            <p>Hello there!</p><p> I'm a Computer Science student from Bangladesh. I like to solve problems and so I 
-                like to take part in competitive programming contests. I usually practice coding in CodeForces and CodeChef.
-                Aside form contesting, I know Cpp, Java, Python, Django, CodeIgniter, SQL, Git, Docker etc.
+            <p>Hello there!</p><p> I'm a software engineer from Bangladesh. I like to solve problems and so I 
+                like to take part in competitive programming contests. I usually practice coding in CodeForces, LeetCode, and CodeChef.
+                I also know Cpp, Java, Julia, Python, Django, SQL, Git, Vim etc.
                 <p> 
                 Thank you for reading. 
                 </p>
@@ -57,7 +58,7 @@
             <div id="Research" class="container w3-display-container  city" style="display:none">
             <span onclick="this.parentElement.style.display='none'"
             class="w3-button w3-large w3-display-topright">&times;</span>
-            <h2>Research</h2>
+            <h2>Thesis</h2>
             <p>
                 <table class="table table-bordered table-hover">
                 <col width="80">
@@ -72,7 +73,7 @@
                 </tr>
                 <tr>
                     <td class="w3-right-align">Description</td>
-                    <td>In this thesis, we investigated how to build knowledge graph from 
+                    <td>In the undergraduate thesis, we investigated how to build a knowledge graph from 
                 a very limited data source like Tweets. As the research progressed, 
                 we faced some chalanges such as connecting external knowledge base, 
                 choosing tentative candidates and disambiguating urls using various heuristic functions. 
@@ -92,10 +93,21 @@
             <h2>Resume</h2>
         
             <p>
-                <iframe height="1000px" width="100%" src="https://fahimfarhan.github.io/resume/Qazi_Fahim_Farhan.pdf" name="iframe_a"></iframe>
+                <iframe height="1000px" width="100%" src="https://fahimfarhan.github.io/academic-resume/academic-cv/Qazi_Fahim_Farhan.pdf" name="iframe_a"></iframe>
             </p>
             <br><br><br><br>
             </div>
+
+            <div id="ResumeEuropass" class="container w3-display-container  city" style="display:none">
+                <span onclick="this.parentElement.style.display='none'"
+                class="w3-button w3-large w3-display-topright">&times;</span>
+                <h2>Resume(Europass)</h2>
+            
+                <p>
+                    <iframe height="1000px" width="100%" src="https://fahimfarhan.github.io/academic-resume/official-europass-cv/Qazi_Fahim_Farhan_europass_cv.pdf.pdf" name="iframe_a"></iframe>
+                </p>
+                <br><br><br><br>
+                </div>
 
             <div id="Projects" class="container w3-display-container  city" style="display:none">
                 <span onclick="this.parentElement.style.display='none'"
@@ -253,8 +265,7 @@
                     </div>
                 </div>
                 <!-- contact -->
-                    <div class="col-sm-8">
-                            <!---->
+                    <!-- <div class="col-sm-8">
                             <form action="https://jumprock.co/mail/ColeAnderson" method="post">
                                 
                                 <div class="container">
@@ -295,8 +306,8 @@
                                     </div>
                                 </div>
                                 </form>
-                            <!---->    
-                    </div>
+                              
+                    </div> -->
                 </div>
                 
                 <br>
